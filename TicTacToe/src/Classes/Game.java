@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MyDesign;
+package Classes;
+
+import Interfaces.Player;
 
 public class Game {
 
@@ -16,15 +18,10 @@ public class Game {
         this.board = board;
     }
 
-    public static void startGame() {
-
-        Player player1 = new Player('o');
-        Player player2 = new Player('x');
-        Board board = new Board();
-
+    public void startGame() {
         Player currentPlayer = player1;
         while (!board.isFull()) {
-            Move currentMove = currentPlayer.play();
+            Move currentMove = currentPlayer.play(board);
             board.applyMove(currentMove, currentPlayer.getSymbol());
             if (board.hasWinningLine(currentPlayer.getSymbol())) {
                 System.out.println("Player with symbol - " + currentPlayer.getSymbol() + " won...");

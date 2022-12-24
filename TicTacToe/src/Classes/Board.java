@@ -1,6 +1,6 @@
-package MyDesign;
+package Classes;
 
-class Board {
+public class Board {
 
     private char[][] board;
 
@@ -18,6 +18,18 @@ class Board {
             }
         }
         return true;
+    }
+
+    public Move getEmptyCellForComputer() {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (this.board[i][j] == 0) {
+                    return new Move(i, j);
+                }
+
+            }
+        }
+        return null;
     }
 
     public void applyMove(Move move, char symbol) {

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MyDesign;
+package Classes;
 
 /**
  *
  * @author HP
  */
-class Move {
+public class Move {
 
     private int x, y;
 
