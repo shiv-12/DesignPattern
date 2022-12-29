@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package api;
+
+import Searcher.RestroSearcher;
+import data.Restro;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
+public class GetRestroByIdApi {
 
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
+    public Restro getRestroById(int restroId) {
+        return new RestroSearcher().;
     }
-    
-    
+
 }

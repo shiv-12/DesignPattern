@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package data;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
-
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
-    }
-    
+public enum OrderStatus {
+    ORDER_PLACED,
+    COOKING,
+    READY_FOR_DELIVERY,
+    OUT_FOR_DELIVERY,
+    DELIVERED,
+    CANCELED
     
 }

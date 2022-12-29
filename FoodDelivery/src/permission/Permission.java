@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package permission;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
-
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
-    }
+public interface Permission {
     
+    public boolean isPermitted();
     
 }

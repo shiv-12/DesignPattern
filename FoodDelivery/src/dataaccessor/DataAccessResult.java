@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package dataaccessor;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
-
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
-    }
+public class DataAccessResult {
     
+    // it has come code for converting query result into the json form 
     
 }

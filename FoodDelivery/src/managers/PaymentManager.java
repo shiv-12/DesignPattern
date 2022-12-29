@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package managers;
+
+import data.PaymentResponse;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
+public interface PaymentManager {
 
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
-    }
-    
-    
+    PaymentResponse executePayment();
 }

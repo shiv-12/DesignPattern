@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package filters;
+
+import data.FoodItem;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
-
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
-    }
-    
-    
+public interface FoodItemFilter {
+    boolean filter(FoodItem foodItem);
 }

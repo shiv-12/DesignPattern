@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package managers;
+
+import data.Address;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
+public class DeliveryManager {
 
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
+    public boolean isDeliveryPossible(Address userAddress, Address restroAddress){
+        return true;
     }
-    
     
 }

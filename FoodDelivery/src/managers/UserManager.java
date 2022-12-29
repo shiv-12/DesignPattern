@@ -3,17 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package managers;
+
+import data.User;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
+public class UserManager {
 
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
+    public User getUserByToken(String token) {
+        return null;
     }
-    
-    
+
+    public User getUserId(int id) {
+        return null;
+    }
 }

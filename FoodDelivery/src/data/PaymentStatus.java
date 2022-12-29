@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package data;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
+public enum PaymentStatus {
+    SUCCESS,
+    FAILED
 
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
-    }
-    
-    
 }

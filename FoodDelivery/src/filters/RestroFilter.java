@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package user;
+package filters;
+
+import data.Restro;
+import java.util.List;
 
 /**
  *
  * @author HP
  */
-public class Admin extends User{
+public interface RestroFilter {
 
-    public Admin(int memberId, String memberName) {
-        super(memberId, memberName);
-    }
-    
-    
+    public boolean filter(Restro restro);
+
 }

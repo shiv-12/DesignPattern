@@ -4,15 +4,26 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/libraymanagementdesign/LibrayManagementDesign.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/libraymanagementdesign/AddBook.java</file>
             <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/NameBasedMemberSearcher.java</file>
-            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/libraymanagementdesign/BookCopy.java</file>
-            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/libraymanagementdesign/Member.java</file>
-            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/BookSearcher.java</file>
-            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/MemberSearcher.java</file>
-            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/NameBasedBookSearcher.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/IdBasedBookSearcher.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/dataaccessor/ResultsConvertor.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/user/Admin.java</file>
             <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/libraymanagementdesign/Tester.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/dataaccessor/DBAccessor.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/user/Member.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/user/User.java</file>
             <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/AuthorBasedBookSearcher.java</file>
             <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/auth/UserAuthenticator.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/auth/IdGenerator.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/libraymanagementdesign/BookCopy.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/BookSearcher.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/MemberSearcher.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/IdBasedMemberSearcher.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/dataaccessor/Results.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/searcher/NameBasedBookSearcher.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/libraymanagementdesign/AddIteamsIntoLibrary.java</file>
+            <file>file:/C:/Users/HP/Desktop/MyDesign/DesignPattern/LibrayManagementDesign/src/lib/Library.java</file>
         </group>
     </open-files>
 </project-private>

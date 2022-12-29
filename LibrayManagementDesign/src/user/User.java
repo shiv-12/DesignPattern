@@ -9,6 +9,15 @@ package user;
  *
  * @author HP
  */
-public class User {
-    
+public abstract class User {
+
+    private final int memberId;
+    private final String memberName;
+  
+
+    public User(int memberId, String memberName) {
+        this.memberId = memberId;
+        this.memberName = memberName;
+    }
+
 }

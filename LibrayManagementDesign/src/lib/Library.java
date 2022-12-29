@@ -20,10 +20,13 @@ public class Library {
 
     // this is the Bussiness Layer
     // Here we are creating lots of method which take business object 
+    
+    private final DBAccessor dbAccessor = new DBAccessor();
+     
     public void addBookCopy(BookCopy bookCopy) {
 
         // first validate arguments
-        DBAccessor dbAccessor = new DBAccessor();
+       
         dbAccessor.insertBookCopy(bookCopy);
 
     }
