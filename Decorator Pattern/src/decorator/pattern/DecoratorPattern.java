@@ -21,9 +21,13 @@ public class DecoratorPattern {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         Pizza pizza = new Paneer(new Paneer(new Cheese(new PlainWeat())));
+
         System.out.println("your pizza - " + pizza.getName());
         System.out.println("your total cost will be - " + pizza.getCost());
     }
 
 }
+
+// yaha pizza panner ka refrence hai So when we call pizza.getName() it will refers to the getname method of panner 

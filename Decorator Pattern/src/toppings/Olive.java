@@ -13,25 +13,9 @@ import bases.Pizza;
  */
 public class Olive extends Toppings {
 
-    private String name = "Olive";
-    private double cost = 20.0;
-
     public Olive(Pizza pizza) {
-        this.name = this.name + " " + pizza.getName();
-        this.cost = this.cost + pizza.getCost();
-
+        super("olive", 5, pizza);
     }
 
-    @Override
-    public String getName() {
-        return this.name;
-
-    }
-
-    @Override
-    public double getCost() {
-        return this.cost;
-
-    }
-
+   
 }

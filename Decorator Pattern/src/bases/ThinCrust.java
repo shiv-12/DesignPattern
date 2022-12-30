@@ -9,21 +9,10 @@ package bases;
  *
  * @author HP
  */
-public class ThinCrust implements Pizza {
+public class ThinCrust extends Pizza {
 
-    private String name = "ThinCrust";
-    private double cost = 100.0;
-
-    @Override
-    public String getName() {
-        return this.name;
-
-    }
-
-    @Override
-    public double getCost() {
-        return this.cost;
-
+    public ThinCrust() {
+        super("Thin Crust", 15);
     }
 
 }

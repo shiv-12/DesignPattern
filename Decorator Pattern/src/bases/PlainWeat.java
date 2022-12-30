@@ -9,21 +9,10 @@ package bases;
  *
  * @author HP
  */
-public class PlainWeat implements Pizza {
+public class PlainWeat extends Pizza {
 
-    private String name = "PlainWeat";
-    private double cost = 80.0;
-
-    @Override
-    public String getName() {
-        return this.name;
-
-    }
-
-    @Override
-    public double getCost() {
-        return this.cost;
-
+    public PlainWeat() {
+        super("plainWeat", 10);
     }
 
 }
