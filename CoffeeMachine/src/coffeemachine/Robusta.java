@@ -9,7 +9,11 @@ package coffeemachine;
  *
  * @author HP
  */
-public class Robusta implements Coffee{
+public class Robusta extends Coffee{
+
+    public Robusta(IngredientFactory ingredientFactory) {
+        super(ingredientFactory);
+    }
 
     @Override
     public void brew() {

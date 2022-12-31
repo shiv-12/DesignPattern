@@ -9,7 +9,11 @@ package coffeemachine;
  *
  * @author HP
  */
-public class Espresso implements Coffee {
+public class Espresso extends Coffee {
+
+    public Espresso(IngredientFactory ingredientFactory) {
+        super(ingredientFactory);
+    }
 
     @Override
     public void brew() {

@@ -9,15 +9,12 @@ package coffeemachine;
  *
  * @author HP
  */
-public class CoffeeMachine {
+public class Tester {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        CoffeeServer coffeeServer = new CoffeeServer(new CoffeeFactory());
-        coffeeServer.serve("Cappuccino");
+        CoffeeFactory coffeeFactory = new CoffeeFactory();
+        coffeeFactory.getCoffeeObject("Cappuccino");
+
     }
 
 }

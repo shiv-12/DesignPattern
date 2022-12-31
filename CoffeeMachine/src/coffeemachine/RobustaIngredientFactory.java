@@ -9,20 +9,21 @@ package coffeemachine;
  *
  * @author HP
  */
-public class Cappuccino extends Coffee {
+public class RobustaIngredientFactory implements IngredientFactory {
 
-    public Cappuccino(IngredientFactory ingredientFactory) {
-        super(ingredientFactory);
+    @Override
+    public Beans getBean() {
+        return new AmericanBean();
     }
 
     @Override
-    public void brew() {
-        System.out.println("Cappuccino brew");
+    public Milk getMilk() {
+        return new CowMilk();
     }
 
     @Override
-    public void boil() {
-        System.out.println("Cappuccino boil");
+    public Sugar getSugar() {
+        return new BrownSugar();
     }
 
 }

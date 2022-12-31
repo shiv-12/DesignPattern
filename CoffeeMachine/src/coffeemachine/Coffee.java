@@ -9,9 +9,23 @@ package coffeemachine;
  *
  * @author HP
  */
-public interface Coffee {
+public abstract class Coffee {
 
-    void brew();
+    private final Beans bean;
+    private final Sugar sugar;
+    private final Milk milk;
+    private final IngredientFactory ingredientFactory;
 
-    void boil();
+    public Coffee(IngredientFactory ingredientFactory) {
+        this.ingredientFactory = ingredientFactory;
+        this.bean = ingredientFactory.getBean();
+        this.sugar = ingredientFactory.getSugar();
+        this.milk = ingredientFactory.getMilk();
+    }
+
+    abstract void brew();
+
+    abstract void boil();
 }
+
+// also the child classes of Coffee should pass ingredientFactory instead of those 3 arguments (milk sugar bean)
